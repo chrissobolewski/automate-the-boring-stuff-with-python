@@ -4,6 +4,7 @@
 # Remember to convert the return value from input() to an integer with the int() function; otherwise, it will be a string value. To make the output more compact, the print() calls that print the numbers should have a sep=' ' named parameter to print all values on one line.
 
 print('Input number to test: ')
+# Get user input and ensure it's a positive integer
 while True:
     try:
         number = int(input('> '))
